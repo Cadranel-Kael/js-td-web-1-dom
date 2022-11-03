@@ -7,33 +7,43 @@ http://icant.co.uk/articles/domessentials/
 
 /* 1. Cibler l'élément d'id nav */
 
+console.log(document.querySelector('#nav'));
 
 /* 2. Récupérer tous les li */
 
+console.log(document.querySelectorAll('li'));
 
 /* 3. Cibler le 4e li */
 
+console.log(document.querySelectorAll('li')[3]);
 
 /* 4. Compter le nombre de li dans la page */
 
+console.log(document.querySelectorAll('li').length);
 
 /* 5. Cibler le premier li pair */
 
+console.log(document.querySelectorAll('.pair')[1])
 
 /* 6. Récupérer tous les li de classe impair */
 
+console.log(document.querySelectorAll('.impair'))
 
 /* a) afficher ce qu'on obtient */
 
 
 /* b) afficher le 2e li de classe impair */
 
+console.log(document.querySelectorAll('.impair')[1])
 
 /* c) afficher chacun des li impair */
 
-
+for (let i = 0; i < document.querySelectorAll('.impair').length; i++) {
+    console.log(document.querySelectorAll('.impair')[i]);
+}
 
 /* d) compter le nombre de li de classe impair dans la page */
+
 
 
 
